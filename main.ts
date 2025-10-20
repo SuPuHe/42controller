@@ -1,3 +1,6 @@
+input.onButtonPressed(Button.A, function () {
+    basic.clearScreen()
+})
 input.onGesture(Gesture.LogoUp, function () {
     radio.sendValue("sigup", 1)
     basic.showIcon(IconNames.Yes)
