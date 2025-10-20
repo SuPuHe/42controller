@@ -1,5 +1,6 @@
 input.onGesture(Gesture.LogoUp, function () {
-	
+    radio.sendValue("sigup", 1)
+    basic.showIcon(IconNames.Yes)
 })
 input.onGesture(Gesture.TiltLeft, function () {
     radio.sendValue("sigleft", 1)
